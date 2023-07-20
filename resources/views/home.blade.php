@@ -22,5 +22,9 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <div>
+          <div>{{ $titolo }}</div>
+          <div>{{ $descrizione }}</div>
+        </div>
     </body>
 </html>
