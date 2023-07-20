@@ -29,6 +29,10 @@
             <div class="row">
                 <div class="col mt-5">
                     <h1 class="text-danger text-center">Hello World!</h1>
+                    <div>
+                      <h3>{{ $titolo }}</h3>
+                      <div>{{ $descrizione }}</div>
+                    </div>
                 </div>
             </div>
         </div>
