@@ -28,13 +28,9 @@
         <div class="container">
             <div class="row">
                 <div class="col mt-5">
-                    <h1 class="text-danger text-center">Hello World!</h1>
-                    <div>
-                      <h3>{{ $titolo }}</h3>
-                      <div>{{ $descrizione }}</div>
-                      <a href="/bonus" class="text-primary">Clicca qui</a>
-                    </div>
+                    <h1 class="text-center">{{ $saluto }}</h1>
                 </div>
+                <a href="/" class="text-primary text-center">Torna alla Hompage</a>
             </div>
         </div>
     </body>
