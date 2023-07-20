@@ -14,10 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    
     $data=[
         'titolo' => 'Benvenuto Laravel',
         'descrizione' => 'Il framework di php'
     ];
     
     return view('home', $data);
+});
+
+Route::get('/bonus', function () {
+    
+    $data=[
+        'saluto' => 'Ciao classe #99',
+    ];
+    
+    return view('bonus', $data);
 });
